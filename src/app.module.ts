@@ -7,8 +7,10 @@ import { DatabaseModule } from './core/database/database.module';
 import { ConfigModule } from '@nestjs/config'
 import { UsersModule } from './modules/users/users.module';
 import { AuthModule } from './modules/auth/auth.module';
+import { ProductsModule } from './modules/products/products.module';
+import { ProductImgModule } from './modules/products/img/product.img.module';
 @Module({
-  imports: [AssessmentModule, DatabaseModule, ConfigModule.forRoot({ isGlobal: true }), UsersModule, AuthModule,
+  imports: [AssessmentModule, DatabaseModule, ConfigModule.forRoot({ isGlobal: true }), UsersModule, AuthModule, ProductsModule,ProductImgModule
   ],
   controllers: [AppController],
   providers: [AppService],

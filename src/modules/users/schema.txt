@@ -10,10 +10,10 @@ nama
 harga
 diskon
 detail
-rate
 stok
 kategori
 berat
+status
 
 Table ImgProduct
 url
