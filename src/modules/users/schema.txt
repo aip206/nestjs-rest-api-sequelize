@@ -1,0 +1,51 @@
+Table User
+nama
+email
+password
+role
+isActive
+
+Table Product
+nama
+harga
+diskon
+detail
+rate
+stok
+kategori
+berat
+
+Table ImgProduct
+url
+id_product
+
+Table CommentProduct
+nama_user
+comment
+
+Table shipping
+nama
+
+Table ShippingService
+eta
+eta_info
+harga
+
+Table Cart
+user_id
+product_id
+total
+
+Table invoice
+nomor
+total
+user_id
+status
+
+Table invoiceprod
+invoice_id
+product_id
+
+
+
+
